@@ -44,16 +44,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
       }
 
       .title span {
         font-size: 24px;
+        color: black;
+        /* filter: brightness(0) invert(1); */
       }
 
       .title h2 {
         margin-left: 10px;
-        font-size: 22px;
+        font-size: 30px;
+        font-weight: 400;
+        color: black;
       }
 
       /* Form Fields */
@@ -66,6 +70,7 @@
         display: block;
         font-size: 16px;
         margin-bottom: 5px;
+        margin-bottom: 20px;
       }
 
       select {
@@ -81,8 +86,9 @@
       }
 
       /* Button Styling */
-      .btn {
-        width: 100%;
+      /* .btn {
+        width: 80%;
+        margin-top: 20px;
         background-color: #ffcc00;
         color: black;
         font-size: 18px;
@@ -96,6 +102,24 @@
 
       .btn:hover {
         background-color: #e6b800;
+      } */
+
+      .custom-button {
+        width: 80%;
+        margin-top: 20px;
+        display: inline-block;
+        background-color: #ffc107; /* Yellow */
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .custom-button:hover {
+        background-color: #e0a800; /* Darker yellow */
       }
 
       /* Responsive Design */
@@ -154,7 +178,13 @@
       </div>
 
       <!-- Submit Button -->
-      <button class="btn">PROCEED</button>
+      <!-- <button href="https://fonts.google.com/" class="btn">PROCEED</button> -->
+
+      <a
+        href="https://visa.canadamigrates.com/what-are-the-requirements-for-spouse-visa-in-united-kingdom/"
+        class="custom-button"
+        >PROCEED</a
+      >
     </div>
   </body>
 </html>
